@@ -1,0 +1,21 @@
+{
+  "name": "forget-skill",
+  "version": "1.0.0",
+  "description": "记忆遗忘衰减技能：给 meow-memory 记忆加重要性权重与指数衰减，检索按 decayed_importance 重排",
+  "type": "module",
+  "main": "scripts/decay.mjs",
+  "exports": "./scripts/decay.mjs",
+  "scripts": {
+    "demo": "node scripts/decay.mjs"
+  },
+  "keywords": [
+    "memory",
+    "forgetting-curve",
+    "decay",
+    "meow-memory",
+    "dsh",
+    "skill"
+  ],
+  "license": "MIT",
+  "author": "Fairy (DSH)"
+}
